@@ -8,7 +8,8 @@
     border: 1px solid black;
     width: 100%;
     height: 700px;
-
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
  
 }
 
@@ -40,7 +41,34 @@
     background-color: #0096c7;
 }
 
+.home{
+    background-image: url('../img/moon.jpg');
+    background-size: cover;
+    background-position: top center;
+    border: 1px solid black;
+    width: 100%;
+    height: 80%;
+    
+}
 
+.rectangle{
+    width: 60%;
+    height: 20%;
+    background-color: rgba(0, 195, 255, 0.363);
+   text-align-last: center;
+}
+
+.rectangle>h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.rectangle>p>a{
+   
+    border: 2px solid #03045e;
+    background-color: #03045e;
+}
+
+/* Feim que la pagina a partir de 574px posi el menu en columnes en vez de files */
 @media screen and (max-width: 574px) {
 
     .flex{
@@ -52,8 +80,5 @@
         align-items: center;
     }
 
-    .menu>h1{
-        
-    }
 
 }
