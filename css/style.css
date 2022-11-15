@@ -1,4 +1,4 @@
-
+/*JMI:per totes les pagines*/
 .flex{
     display: flex;
     flex-direction: row;
@@ -13,6 +13,7 @@
  
 }
 
+/*JMI:per menu*/
 .menu{
     width: 100%;
     height: 10%;
@@ -41,6 +42,7 @@
     background-color: #0096c7;
 }
 
+/*JMI: per pagina 1*/
 .home{
     background-image: url('../img/moon.jpg');
     background-size: cover;
@@ -70,6 +72,7 @@
     background-color: #03045e;
 }
 
+/*JMI:Per pagina 2*/
 .imatges{
     background-image: url('../img/moon.jpg');
     background-size: cover;
@@ -138,9 +141,27 @@
     background-size: cover;
     background-position: top center; 
 }
+/*JMI: Per pagina 3*/
+.reserva{
+    background-image: url('../img/moon.jpg');
+    background-size: cover;
+    background-position: top center;
+    border: 1px solid black;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+.formulari{
+    width: 60%;
+    height: 20%;
+    background-color: rgba(0, 195, 255, 0.363);
+    text-align-last: center;
+    margin-left: 22%;
+}
 
 
-/* Feim que la pagina a partir de 574px posi el menu en columnes en vez de files */
+/* JMI:per fer-ho responsive */
 @media screen and (max-width: 574px) {
 
     .flex{
@@ -157,3 +178,4 @@
         margin-left: 8%;
     }
 }
+

@@ -13,11 +13,27 @@
 
 <body>
     <div class="index flex">
-        <!--En aquest paragraf el que faig es crear el menu i crear enllaços a galeria i reserva-->
+        <!--JMI:En aquest paragraf el que faig es crear el menu i crear enllaços a galeria i reserva-->
         <div class="menu flex">
         <h1><a href="index.html">Home</a></h1>
         <h1><a href="galeria.html">Galeria</a></h1>
         <h1 class="actual"><a href="reserva.html">Reserva</a></h1>
+        </div>
+
+        <!--JMI:Feim el formulari on posam 3 inputs de nom de passatger dia de entrada i dia de sortida.-->
+        <div class="reserva flex">
+            <form class="formulari" action="index.html">
+                <label for="passatger">Passatger</label><br>
+                <input type="text" placeholder="Insereix el teu nom aqui" name="passatger" id="passatger">
+                <br>
+                <label for="datae">Data de entrada</label><br>
+                <input type="date" placeholder="Insereix el dia de partida" name="datae" id="datae">
+                <br>
+                <label for="datas">Data de entrada</label><br>
+                <input type="date" placeholder="Insereix el dia de tornada" name="datas" id="datas">
+                <br>
+                <input type="submit" placeholder="Enviar">
+            </form>
         </div>
     </div>
 
