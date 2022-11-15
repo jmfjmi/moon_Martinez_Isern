@@ -7,7 +7,7 @@
 .index{
     border: 1px solid black;
     width: 100%;
-    height: 700px;
+    height: 1000px;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
  
@@ -70,6 +70,76 @@
     background-color: #03045e;
 }
 
+.imatges{
+    background-image: url('../img/moon.jpg');
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 1000px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.imatges>div{
+    width: 30%;
+    height: 30%;
+}
+
+.imatge1{
+    background-image: url('../img/moon1.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge2{
+    background-image: url('../img/moon2.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge3{
+    background-image: url('../img/moon3.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge4{
+    background-image: url('../img/moon4.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge5{
+    background-image: url('../img/moon5.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge6{
+    background-image: url('../img/moon6.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge7{
+    background-image: url('../img/moon7.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge8{
+    background-image: url('../img/moon8.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+.imatge9{
+    background-image: url('../img/moon9.jpg');
+    background-size: cover;
+    background-position: top center; 
+}
+
+
 /* Feim que la pagina a partir de 574px posi el menu en columnes en vez de files */
 @media screen and (max-width: 574px) {
 
@@ -82,5 +152,8 @@
         align-items: center;
     }
 
-
+    .rectangle{
+        margin-top: 20%;
+        margin-left: 8%;
+    }
 }
